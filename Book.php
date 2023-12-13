@@ -6,7 +6,7 @@ class Book
     private $pages;
     private $releaseYear;
 
-    public function __construct(string $title= "" , int $pages= 0 , int $releaseYear= 0)
+    public function __construct(string $title = "", int $pages = 0, int $releaseYear = 0)
     {
         $this->title = $title;
         $this->pages = $pages;
@@ -24,7 +24,7 @@ class Book
     {
         return $this->releaseYear;
     }
-      
+
     public function setTitle($title)
     {
         $this->title = $title;
@@ -38,4 +38,3 @@ class Book
         $this->releaseYear = $releaseYear;
     }
 }
-?>
